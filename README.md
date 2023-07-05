@@ -2,6 +2,7 @@
 
 El archivo devbrary.js es una librería hecha en jQuery que contiene una serie de funciones y métodos que se pueden utilizar para versatilizar ciertas aciones en el código JavaScript. 
 Esta biblioteca incluye funciones para el manejo de DOM y HTML, el manejo de URLs, el manejo de SQL, el manejo de strings, el manejo de fechas, el manejo de arrays, el manejo de variables y el debug de aplicaciones. 
+
 ## Categorías
 
 Devbrary JS test library está organizada en diferentes categorías que agrupan las funciones según su funcionalidad. Aquí hay una lista de las categorías disponibles:
@@ -16,41 +17,41 @@ Devbrary JS test library está organizada en diferentes categorías que agrupan 
 * ARR      = Manejo de Arrays
 * HTML     = Se utiliza para embeber en html
 
-Este se divide en distintas finalidades de funciones usando como prefijo `dev_`
+Este se divide en distintas finalidades de funciones usando como prefijo `DevBrary.`
 
-**Ejemplo:** `dev_test_var_dump('prueba')`
+**Ejemplo:** `DevBrary.test_var_dump('prueba')`
 
 * **str:** manejo de string
 ```
-dev_str_reemplazar_expresion_regular('Hola', '\w+',' ')
+DevBrary.str_reemplazar_expresion_regular('Hola', '\w+',' ')
 ```
 * **test:** manejo de testeo
 ```
-dev_test_var_dom_dump('id-elemento')
+DevBrary.test_var_dom_dump('id-elemento')
 ```
 * **dom:** manejo de DOM
 ```
-dev_dom_crear_elemento('p','Valor del contenido','id-padre','id-elemento','clases','name',['otros','atributos'],['valor','de atributos'])
+DevBrary.dom_crear_elemento('p','Valor del contenido','id-padre','id-elemento','clases','name',['otros','atributos'],['valor','de atributos'])
 ```
 * **is:** saber que tipo de dato es
 ```
-dev_is_array(['valor'])
+DevBrary.is_array(['valor'])
 ```
 * **form:** validación de elementos del domde
 ```
-dev_form_email('mail@mail.com')
+DevBrary.form_email('mail@mail.com')
 ```
 * **url:** manejo de url
 ```
-dev_url_get_host('http://www.pagina.prueba.com')
+DevBrary.url_get_host('http://www.pagina.prueba.com')
 ```
 * **arr:** manejo de array
 ```
-dev_arr_incluye_texto(['prueba'],'prueba')
+DevBrary.arr_incluye_texto(['prueba'],'prueba')
 ```
 * **fec:** manejo de fechas
 ```
-dev_fec_fecha_actual()
+DevBrary.fec_fecha_actual()
 ```
 
 ## Pre-requisitos
@@ -86,7 +87,7 @@ $.getScript( "https://cdn.jsdelivr.net/gh/yosoymitxel/devbrary-js-test-library@m
 
 ## Ejecutando las pruebas
 
-Puedes escribir `echo('prueba')` o `dev_test_echo('prueba')` para saber si esta fue instalada correctamente
+Puedes escribir `echo('prueba')` o `DevBrary.test_echo('prueba')` para saber si esta fue instalada correctamente
 
 ## Construido con 
 
